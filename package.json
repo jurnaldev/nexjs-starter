@@ -1,0 +1,33 @@
+{
+  "name": "nexjs-starter",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "is-ci \"test:e2e:run\" \"test:e2e:dev\"",
+    "test:e2e:dev": "start-server-and-test dev http://localhost:3000 cypress:open",
+    "test:e2e:run": "start-server-and-test dev http://localhost:3000 cypress:run"
+  },
+  "dependencies": {
+    "next": "12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.33",
+    "autoprefixer": "^10.4.0",
+    "cypress": "^8.7.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.1",
+    "is-ci-cli": "2.2.0",
+    "postcss": "^8.3.11",
+    "start-server-and-test": "^1.14.0",
+    "tailwindcss": "^2.2.17",
+    "typescript": "4.4.4"
+  }
+}
