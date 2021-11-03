@@ -1,9 +1,9 @@
-describe('Home Page Test', () => {
-    beforeEach(() => {
-        cy.visit("/");
-    });
+describe("Home Page Test", () => {
+  beforeEach(() => {
+    cy.visit("/");
+  });
 
-    it('display welcome page!', () => {
-        cy.contains("Welcome to Next.js!").should("be.visible")
-    })
-})
+  it("display welcome page!", () => {
+    cy.contains("Welcome to Next.js!").should("be.visible");
+  });
+});

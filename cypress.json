@@ -1,7 +1,7 @@
 {
-    "baseUrl": "http://localhost:3000",
-    "projectId": "d1k4har15",
-    "integrationFolder": "cypress/e2e",
-    "viewportHeight": 900,
-    "viewportWidth": 1366
-  }
+  "baseUrl": "http://localhost:3000",
+  "projectId": "d1k4har15",
+  "integrationFolder": "cypress/e2e",
+  "viewportHeight": 900,
+  "viewportWidth": 1366
+}
